@@ -1,0 +1,351 @@
+@font-face {
+	font-family: Gilroy; 
+	src: url(fonts/gilroy-regular.ttf);
+}
+
+@font-face {
+	font-family: HeadingPro; 
+	src: url(fonts/HeadingPro-Bold.ttf);
+}
+
+body, a {
+    margin: 0;
+    color: white;
+
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.bg-color-first-block {
+    background: linear-gradient(114.23deg, #FEC501 0%, #80C242 67.71%);
+    position: relative;
+}
+
+.bg-color-second-block {
+    background: linear-gradient(114.23deg, #FEC501 0%, #80C242 67.71%);
+}
+
+.bg-color-third-block {
+    background: #80C242;
+    position: relative;
+}
+
+header {
+    padding-top: 27px;
+    position: relative;
+    padding-bottom: 143px;
+}
+
+.container {
+    width: 1100px;
+    height: 100;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.menu a {
+    font-family: "Gilroy";
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 100%;
+    padding: 14.5px 22px;
+}
+
+.menu a:not(:last-child) {
+    border-right: 1px solid #EAB602;
+}
+
+.navbar {
+    margin-bottom: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.alltop {
+    display: flex;
+}
+
+.aicenter {
+    align-items: center;
+}
+
+.menu-ot-right {
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-family: "HeadingPro";
+    z-index: 2;
+    position: relative;
+}
+
+h1  span {
+    color: #443E3E; 
+    z-index: 2;
+}  
+
+
+.imgkids {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    left: 546px;
+    z-index: 3;
+}
+
+.bgimage {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 72px;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-family: "HeadingPro";
+    margin: 0;
+}
+
+.advantages h2 {
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+
+.advantagescard {
+    font-family: "Gilroy";
+    padding: 25px 30px;
+    background: #FFFFFF;
+    border: 2px solid #76C22E;
+    box-shadow: -8px 8px 17px rgba(199, 165, 47, 0.5);
+    border-radius: 22px;
+    max-width: 344px;
+    min-width: 290px;
+    font-size: 20px;
+    color:  #443E3E;
+    line-height: 1;
+}
+
+section {
+    padding: 50px 0;
+    position: relative;
+}
+
+.advantage-card-list .advantagescard:first-child {
+    text-align: right;
+}
+
+.advantage-card-list:nth-child(3) {
+    margin: 62px 0;
+}
+
+.advantage-card-list:nth-child(3) .advantagescard:first-child {
+    transform: translateX(-20%);
+}
+
+.advantage-card-list:nth-child(3) .advantagescard:last-child {
+    transform: translateX(20%);
+}
+
+.advanimg {
+    position: absolute;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.third-block-con {
+    width: 50%;
+}
+
+.third-block-text {
+    font-family: "Gilroy";
+    display: block;
+    margin: 50px 0;
+    font-size: 23px;
+    line-height: 100%;
+}
+
+input {
+    border: 2px solid #76C22E;
+    box-shadow: -8px 8px 17px rgba(121, 199, 47, 0.5);
+    border-radius: 22px;
+    margin-bottom: 23px;
+    font-size: 20px;
+    padding: 25px 0;
+    display: block;
+    outline: none;
+    width: 460px;
+    text-align: center;
+    font-family: "Gilroy";
+    z-index: 1;
+}
+
+input[type=submit] {
+    background: #FEC501;
+    box-shadow: -8px 8px 17px rgba(121, 199, 47, 0.5), inset 0px -4px 4px rgba(255, 240, 102, 0.25), inset -1px 4px 10px #FFF066;
+    border-radius: 22px;
+    margin: 0;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+.third-block-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-50 p {
+    font-family: "Gilroy";
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Gilroy";
+}
+
+.sm-links a {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.imgfooter {
+        margin-right: 50px;
+}
+
+.advantagebgimg {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+@media (max-width: 375px) {
+    .container {
+        padding: 0 15px;
+        width: calc(100% - 30px);
+    }
+    
+    .third-block-con {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px !important;
+        padding: 15px 0 !important;
+        margin-bottom: 15px !important;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    section, footer {
+        padding: 5px 0;
+    }
+
+    .advantagescard {
+        transform: translate(0) !important;
+        margin-bottom: 15px;
+        text-align: center !important;
+        font-size: 16px;
+    }
+
+    .advantage-card-list {
+        margin: 0 !important;
+    }
+
+    .alltop {
+        display: block;
+    }
+    
+    img {
+        max-width: 100%;
+        left: 0;
+    }
+
+    .imgkids {
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+    }
+    
+    .third-block-image {
+        position: relative;
+    }
+
+    .advanimg {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: scale(1.6);
+    }
+
+    .imgfooter {
+        margin-right: 0;
+    }
+
+    form {
+        width: 100%;
+    }
+    
+    h1, h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 30px 0;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+    
+    .third-block-text {
+        text-align: center;
+        font-size: 16px;
+        margin: 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+        font-size: 25x;
+    }
+
+    .advantages h2 {
+        margin-bottom: 10px;
+    }
+    }
